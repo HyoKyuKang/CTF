@@ -1,0 +1,1 @@
+{"name":"Local: app","url":"c:\\ctf\\web\\d9a1bbd3-a85b-4c59-8fd0-8f3d54b27e61\\app.py","tests":[{"id":1730033903587,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\ctf\\web\\d9a1bbd3-a85b-4c59-8fd0-8f3d54b27e61\\app.py","group":"local","local":true}
