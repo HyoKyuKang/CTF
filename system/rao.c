@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-void init() {
+void init() {cat 
   setvbuf(stdin, 0, 2, 0);
   setvbuf(stdout, 0, 2, 0);
 }

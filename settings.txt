@@ -2,3 +2,11 @@
 sudo sysctl -w kernel.core_pattern=./%e_core
 #혹은
 sudo sysctl -w kernel.core_pattern=./core
+
+
+gcc -o rao rao.c -fno-stack-protector -no-pie
+이렇게 컴파일하면 프로그램의 주소가 고정(PIC/PIE 비활성화)되어 특정 함수의 주소를 쉽게 찾을 수 있습니다.
+
+gdb ./rao
+
+info functions
