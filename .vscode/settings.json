@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "orw.C": "cpp"
+        "orw.C": "cpp",
+        "stdio.h": "c"
     }
 }
